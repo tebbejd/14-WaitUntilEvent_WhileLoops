@@ -34,7 +34,7 @@ def double_a_float():
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
-
+    number = float(input())
 
 def print_an_integer_many_times():
     """

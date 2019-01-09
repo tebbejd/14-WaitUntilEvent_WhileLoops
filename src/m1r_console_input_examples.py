@@ -16,15 +16,17 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   1. Write a line of code that would input an INTEGER from the
 #      console, storing the integer in a variable called 'x'.
 #      Write your line here:
-#
+#       x = int(input)
+
 #   2. Write a line of code that would input an FLOAT from the console,
 #      storing the float in a variable called 'x'.
 #      Write your line here:
-#
+#       x = float(input)
+
 #   3. Write a line of code that would input an STRING from the console,
 #      storing the string in a variable called 'x'.
 #      Write your line here:
-#
+#       x = input()
 #   4. What happens if you (the user) enter something OTHER than a
 #      single integer (e.g., you enter
 #        five
@@ -36,7 +38,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #        nothing at all (just press the Enter key)
 #      -- try them!) when running the   input_an_integer   example?
 #      Put your answer here:
-#
+#       You get an error since the input is not an integer
 #   After you have PUT YOUR ANSWERS IN THIS COMMENT as described above,
 #     a. Find someone who has had HER answer checked.
 #        Ask her to check YOUR answers to the above.

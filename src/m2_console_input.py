@@ -7,6 +7,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
+
+
 def main():
     """ TESTs the functions in this module (by calling them). """
     double_a_float()
@@ -36,6 +38,7 @@ def double_a_float():
     # -------------------------------------------------------------------------
     number = float(input('Input floating point number : '))
     print(number * 2)
+
 
 def print_an_integer_many_times():
     """
@@ -70,6 +73,7 @@ def print_an_integer_many_times():
     for k in range(number):
         print(number * 2)
 
+
 def print_an_integer_many_times_on_one_row():
     """
     Same as the previous problem, but print the numbers
@@ -94,7 +98,7 @@ def print_an_integer_many_times_on_one_row():
     string = ''
     for k in range(number):
         string += '{}'.format(number * 2)
-    print (string)
+    print(string)
 
 
 def input_it_all():
@@ -140,7 +144,6 @@ def input_it_all():
             print(math.sqrt(number_float))
         else:
             print(string)
-
 
 
 # -----------------------------------------------------------------------------
